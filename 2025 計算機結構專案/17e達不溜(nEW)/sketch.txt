@@ -1,2 +1,8 @@
 reference
-1. https://www.mobile01.com/topicdetail.php?f=296&t=6988704
+1.(GPU架構) https://www.mobile01.com/topicdetail.php?f=296&t=6988704 
+2.(CPU架構) https://medium.com/@jason890418123/exploring-zen-5-and-zen-4-microarchitectures-dive-into-op-cache-branch-prediction-and-more-f9da2469fb5e
+3.(N4P vs N4; N4P vs N5) https://www.tomshardware.com/news/tsmc-announces-n4p-process-a-refined-n4-chip-node
+4.(technology nodes) https://en.wikichip.org/wiki/5_nm_lithography_process
+5.(SOC, R23, Timespy) https://nanoreview.net/en/cpu/amd-ryzen-ai-max-395
+6.(LLM related) https://www.reddit.com/r/LocalLLM/comments/1k3hlw3/testing_the_ryzen_m_max_395/
+7.(LLM related) https://kyuz0.github.io/amd-strix-halo-toolboxes/
