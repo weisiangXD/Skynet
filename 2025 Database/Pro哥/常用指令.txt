@@ -1,0 +1,20 @@
+show databases;
+
+use xxx; //xxx = name of database
+
+show tables;
+
+show columns from xxx; //xxx = name of table
+
+drop table xxx; //xxx = name of table
+
+drop database xxx; //xxx = name of database
+
+
+
+--
+select distinct
+
+
+// @@
+select person.id, person_name, major, nationality, hardware.model, type, price, feedback, manufacturer_name, country from person, hardware, manufacturer where person.id = hardware.hardware_id and hardware.id = manufacturer.hardware_id;
