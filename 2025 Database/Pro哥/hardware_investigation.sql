@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2025 at 02:52 PM
+-- Generation Time: Dec 28, 2025 at 07:38 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -87,7 +87,10 @@ CREATE TABLE `person` (
 INSERT INTO `person` (`ID`, `person_name`, `major`, `nationality`) VALUES
 (1, 'Kelvin Lim ', 'Computer Science', 'Malaysia'),
 (2, 'Alvin', 'Computer Science', 'Malaysia'),
-(3, 'Jackson', 'Business', 'Malaysia');
+(3, 'Jackson', 'Business', 'Malaysia'),
+(4, 'ww', 'test', 'test'),
+(5, 'weasd', 'weasd', 'weasd'),
+(6, '23as', '21312', '213123');
 
 --
 -- Indexes for dumped tables
@@ -114,6 +117,22 @@ ALTER TABLE `manufacturer`
 ALTER TABLE `person`
   ADD PRIMARY KEY (`ID`),
   ADD KEY `ID` (`ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `hardware`
+--
+ALTER TABLE `hardware`
+  MODIFY `hardware_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `person`
+--
+ALTER TABLE `person`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables
